@@ -14,7 +14,7 @@
 		69F27E771E3D6F1D0096F1AF /* MOCDataUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F27E761E3D6F1D0096F1AF /* MOCDataUITests.swift */; };
 		69F27E891E3D7D290096F1AF /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F27E881E3D7D290096F1AF /* Node.swift */; };
 		69F27EC91E3D90D30096F1AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69F27EC71E3D90D30096F1AF /* Main.storyboard */; };
-		69F27ECB1E3D912D0096F1AF /* Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F27ECA1E3D912D0096F1AF /* Database.swift */; };
+		69F27ECD1E3D93830096F1AF /* Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F27ECC1E3D93830096F1AF /* Database.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,7 +48,7 @@
 		69F27E781E3D6F1D0096F1AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		69F27E881E3D7D290096F1AF /* Node.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Node.swift; path = Models/Node.swift; sourceTree = "<group>"; };
 		69F27EC81E3D90D30096F1AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = MOCData/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		69F27ECA1E3D912D0096F1AF /* Database.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Database.swift; sourceTree = "<group>"; };
+		69F27ECC1E3D93830096F1AF /* Database.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Database.swift; path = Models/Database.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,7 +138,7 @@
 		69F27E8A1E3D7D2D0096F1AF /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				69F27ECA1E3D912D0096F1AF /* Database.swift */,
+				69F27ECC1E3D93830096F1AF /* Database.swift */,
 				69F27E881E3D7D290096F1AF /* Node.swift */,
 			);
 			name = Models;
@@ -281,8 +281,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				69F27ECB1E3D912D0096F1AF /* Database.swift in Sources */,
 				69F27E571E3D6F1D0096F1AF /* AppDelegate.swift in Sources */,
+				69F27ECD1E3D93830096F1AF /* Database.swift in Sources */,
 				69F27E891E3D7D290096F1AF /* Node.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -539,6 +539,7 @@
 				69F27E7D1E3D6F1D0096F1AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		69F27E7E1E3D6F1D0096F1AF /* Build configuration list for PBXNativeTarget "MOCDataTests" */ = {
 			isa = XCConfigurationList;
@@ -547,6 +548,7 @@
 				69F27E801E3D6F1D0096F1AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		69F27E811E3D6F1D0096F1AF /* Build configuration list for PBXNativeTarget "MOCDataUITests" */ = {
 			isa = XCConfigurationList;
@@ -555,6 +557,7 @@
 				69F27E831E3D6F1D0096F1AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
