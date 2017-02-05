@@ -36,6 +36,7 @@
                                 </tableViewCellContentView>
                                 <connections>
                                     <outlet property="databaseName" destination="mvr-RD-keU" id="IeE-kG-tF1"/>
+                                    <segue destination="z2a-lE-e0N" kind="show" id="kcm-vc-Uck"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -55,6 +56,14 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JDb-ZO-vJb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="662" y="234"/>
+        </scene>
+        <!--Details-->
+        <scene sceneID="vxB-UZ-BdS">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Details" id="z2a-lE-e0N" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Luz-iS-qcP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1609" y="233"/>
         </scene>
     </scenes>
 </document>
