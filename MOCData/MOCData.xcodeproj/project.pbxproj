@@ -7,14 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		695461D71E46BF2900989468 /* Databases.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 695461D51E46BF2900989468 /* Databases.storyboard */; };
 		69F27E571E3D6F1D0096F1AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F27E561E3D6F1D0096F1AF /* AppDelegate.swift */; };
 		69F27E5E1E3D6F1D0096F1AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69F27E5D1E3D6F1D0096F1AF /* Assets.xcassets */; };
 		69F27E611E3D6F1D0096F1AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69F27E5F1E3D6F1D0096F1AF /* LaunchScreen.storyboard */; };
 		69F27E6C1E3D6F1D0096F1AF /* MOCDataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F27E6B1E3D6F1D0096F1AF /* MOCDataTests.swift */; };
 		69F27E771E3D6F1D0096F1AF /* MOCDataUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F27E761E3D6F1D0096F1AF /* MOCDataUITests.swift */; };
 		69F27E891E3D7D290096F1AF /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F27E881E3D7D290096F1AF /* Node.swift */; };
-		69F27EC91E3D90D30096F1AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69F27EC71E3D90D30096F1AF /* Main.storyboard */; };
+		69F27EC91E3D90D30096F1AF /* NavagationController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69F27EC71E3D90D30096F1AF /* NavagationController.storyboard */; };
 		69F27ECD1E3D93830096F1AF /* Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F27ECC1E3D93830096F1AF /* Database.swift */; };
+		69F27ED01E3D950F0096F1AF /* DatabaseListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F27ECF1E3D950F0096F1AF /* DatabaseListTableViewController.swift */; };
+		69F27ED21E3D95F20096F1AF /* DatabaseListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F27ED11E3D95F20096F1AF /* DatabaseListTableViewCell.swift */; };
+		69F27ED61E3D9F030096F1AF /* DatabaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F27ED51E3D9F030096F1AF /* DatabaseController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		695461D61E46BF2900989468 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Databases.storyboard; sourceTree = "<group>"; };
 		69F27E531E3D6F1D0096F1AF /* MOCData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MOCData.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		69F27E561E3D6F1D0096F1AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		69F27E5D1E3D6F1D0096F1AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -47,8 +52,11 @@
 		69F27E761E3D6F1D0096F1AF /* MOCDataUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MOCDataUITests.swift; sourceTree = "<group>"; };
 		69F27E781E3D6F1D0096F1AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		69F27E881E3D7D290096F1AF /* Node.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Node.swift; path = Models/Node.swift; sourceTree = "<group>"; };
-		69F27EC81E3D90D30096F1AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = MOCData/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		69F27EC81E3D90D30096F1AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = MOCData/Base.lproj/NavagationController.storyboard; sourceTree = "<group>"; };
 		69F27ECC1E3D93830096F1AF /* Database.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Database.swift; path = Models/Database.swift; sourceTree = "<group>"; };
+		69F27ECF1E3D950F0096F1AF /* DatabaseListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DatabaseListTableViewController.swift; path = "View Controllers/DatabaseListTableViewController.swift"; sourceTree = "<group>"; };
+		69F27ED11E3D95F20096F1AF /* DatabaseListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DatabaseListTableViewCell.swift; path = "View Controllers/Custom Cells/DatabaseListTableViewCell.swift"; sourceTree = "<group>"; };
+		69F27ED51E3D9F030096F1AF /* DatabaseController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DatabaseController.swift; path = Controllers/DatabaseController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +109,9 @@
 			children = (
 				69F27E561E3D6F1D0096F1AF /* AppDelegate.swift */,
 				69F27E5D1E3D6F1D0096F1AF /* Assets.xcassets */,
+				69F27ED41E3D9EB70096F1AF /* Controllers */,
 				69F27E8A1E3D7D2D0096F1AF /* Models */,
+				69F27ECE1E3D94DB0096F1AF /* View Controllers */,
 				69F27E871E3D7CB80096F1AF /* Views */,
 				69F27E5F1E3D6F1D0096F1AF /* LaunchScreen.storyboard */,
 				69F27E621E3D6F1D0096F1AF /* Info.plist */,
@@ -130,7 +140,8 @@
 		69F27E871E3D7CB80096F1AF /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				69F27EC71E3D90D30096F1AF /* Main.storyboard */,
+				69F27EC71E3D90D30096F1AF /* NavagationController.storyboard */,
+				695461D51E46BF2900989468 /* Databases.storyboard */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -142,6 +153,31 @@
 				69F27E881E3D7D290096F1AF /* Node.swift */,
 			);
 			name = Models;
+			sourceTree = "<group>";
+		};
+		69F27ECE1E3D94DB0096F1AF /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				69F27ECF1E3D950F0096F1AF /* DatabaseListTableViewController.swift */,
+				69F27ED31E3D95F80096F1AF /* Custom Cells */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		69F27ED31E3D95F80096F1AF /* Custom Cells */ = {
+			isa = PBXGroup;
+			children = (
+				69F27ED11E3D95F20096F1AF /* DatabaseListTableViewCell.swift */,
+			);
+			name = "Custom Cells";
+			sourceTree = "<group>";
+		};
+		69F27ED41E3D9EB70096F1AF /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				69F27ED51E3D9F030096F1AF /* DatabaseController.swift */,
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -254,9 +290,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				69F27EC91E3D90D30096F1AF /* Main.storyboard in Resources */,
+				69F27EC91E3D90D30096F1AF /* NavagationController.storyboard in Resources */,
 				69F27E611E3D6F1D0096F1AF /* LaunchScreen.storyboard in Resources */,
 				69F27E5E1E3D6F1D0096F1AF /* Assets.xcassets in Resources */,
+				695461D71E46BF2900989468 /* Databases.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +318,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69F27ED21E3D95F20096F1AF /* DatabaseListTableViewCell.swift in Sources */,
+				69F27ED01E3D950F0096F1AF /* DatabaseListTableViewController.swift in Sources */,
+				69F27ED61E3D9F030096F1AF /* DatabaseController.swift in Sources */,
 				69F27E571E3D6F1D0096F1AF /* AppDelegate.swift in Sources */,
 				69F27ECD1E3D93830096F1AF /* Database.swift in Sources */,
 				69F27E891E3D7D290096F1AF /* Node.swift in Sources */,
@@ -319,6 +359,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		695461D51E46BF2900989468 /* Databases.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				695461D61E46BF2900989468 /* Base */,
+			);
+			name = Databases.storyboard;
+			sourceTree = "<group>";
+		};
 		69F27E5F1E3D6F1D0096F1AF /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -327,12 +375,12 @@
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
-		69F27EC71E3D90D30096F1AF /* Main.storyboard */ = {
+		69F27EC71E3D90D30096F1AF /* NavagationController.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				69F27EC81E3D90D30096F1AF /* Base */,
 			);
-			name = Main.storyboard;
+			name = NavagationController.storyboard;
 			path = ..;
 			sourceTree = "<group>";
 		};
@@ -436,6 +484,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = GQMN9RP4XE;
 				INFOPLIST_FILE = MOCData/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
@@ -451,6 +500,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = GQMN9RP4XE;
 				INFOPLIST_FILE = MOCData/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
